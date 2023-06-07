@@ -1,0 +1,5 @@
+principal_amount = int(input("Enter your principal amount: "))
+interest_rate = float(input("Enter the interest rate: "))
+no_of_years = float(input("Enter the number of years: "))
+si = ((principal_amount * interest_rate * no_of_years) / 100)
+print("Simple Interest: ", si)
